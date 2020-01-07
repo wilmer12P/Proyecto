@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Calculadora", "Calculadora", "{D832439C-66E5-43D1-9F3A-C4BC6CBFD098}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suma", "Suma\Suma.csproj", "{66B57B62-FBE1-44A7-8005-E228FFAC0885}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCalculador", "TestCalculador\TestCalculador.csproj", "{6ED5C18F-B08F-4DF2-9812-77C7917FE95F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66B57B62-FBE1-44A7-8005-E228FFAC0885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B57B62-FBE1-44A7-8005-E228FFAC0885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B57B62-FBE1-44A7-8005-E228FFAC0885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B57B62-FBE1-44A7-8005-E228FFAC0885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED5C18F-B08F-4DF2-9812-77C7917FE95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED5C18F-B08F-4DF2-9812-77C7917FE95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED5C18F-B08F-4DF2-9812-77C7917FE95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED5C18F-B08F-4DF2-9812-77C7917FE95F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66B57B62-FBE1-44A7-8005-E228FFAC0885} = {D832439C-66E5-43D1-9F3A-C4BC6CBFD098}
+		{6ED5C18F-B08F-4DF2-9812-77C7917FE95F} = {D832439C-66E5-43D1-9F3A-C4BC6CBFD098}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEEC1070-0061-4722-BF5E-BC549B405A75}
+	EndGlobalSection
+EndGlobal
